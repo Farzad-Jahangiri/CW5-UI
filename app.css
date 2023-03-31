@@ -1,25 +1,18 @@
-.order table.list {
-  width: 60%;
+*{
+  margin: 0;
+  padding: 0;
 }
-.order table.list thead {
-  display: table;
-  float: left;
-  width: 60%;
+
+.order table.list th, td {
+  width: 3%;
 }
-.order table.list thead th {
-  text-align: center;
+.order tr.d0 td {
+  background-color: #CC9999;
+  color: black;
 }
-.order table.list tbody {
-  float: left;
-  width: 60%;
-}
-.order table.list tbody tr {
-  display: table;
-  width: 60%;
-}
-.order table.list th,
-td {
-  width: 25%;
+.order tr.d1 td {
+  background-color: #9999CC;
+  color: black;
 }
 
 .OrdersBtn {
